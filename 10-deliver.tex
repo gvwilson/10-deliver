@@ -9,7 +9,7 @@
 
 \begin{flushleft}
 {\Large
-\textbf\newline{Ten Quick Tips for Delivering a Programming Lesson}
+\textbf\newline{Ten Quick Tips for Delivering Programming Lessons}
 }
 \newline
 \\
@@ -26,34 +26,82 @@
 Designing a great lesson is the first 90\% of effective teaching;
 delivering it well is the other 90\%.
 The 10 simple rules outlined in this paper
-describe classroom practices that instructors can adopt immediately and at low cost.
+describe practices that anyone teaching programming can adopt immediately and at low cost.
 
 \section*{Author Summary}
 
 Teaching well is a craft like any other,
 and success often comes from an accumulation of small improvements
 rather than from any single large change.
-This paper describes ten practices that can be applied to a wide variety of subjects,
-that are easy and inexpensive to adopt,
-and that have proven their value in both regular classrooms and free-range workshops.
+This paper describes ten practices you can use when teaching programming (and other subjects).
+All are easy to adopt,
+and have proven their value in both institutional classrooms and free-range workshops.
 
 \section*{Introduction}
 
-Teaching is a craft,
-and like any craft it can be improved by studying, adopting, and adapting
-the practices of others.
-This paper describes ten practices that can be applied to a wide variety of subjects
-and have proven their value in both regular classrooms and free-range workshops.
-They are easier to adopt than those described in \cite{Brow2018,Deve2018},
-some of which are briefly discussed in the conclusion;
-some have been inspired by \cite{Hust2012,Lang2016,Lemo2014},
-while others are drawn from the author's experience
-teaching programming to researchers \cite{Wils2016}.
+Teaching well is a craft like any other,
+and success often comes from an accumulation of small improvements
+rather than from any single large change.
+This paper describes ten practices you can use when teaching programming (and other subjects)
+that are easy to adopt
+and have proven their value in both institutional classrooms and free-range workshops.
+Some have been inspired by~\cite{Hust2012,Lang2016,Lemo2014},
+while others are drawn from the author's experience~\cite{Wils2016}
+or operationalize the larger ideas described in~\cite{Brow2018,Deve2018}.
 
-\rulemajor{Use formative assessment every 5--15 minutes.}
+The foundation for these recommendations is the fact that
+active learning is more effective than passive learning~\cite{Ambr2010,HPL2}.
+People who use new knowledge as it comes in by doing exercises or summarizing it
+learn more than people who just watch or listen.
+Equally,
+teaching is more effective when instructors dynamically adjust their teaching
+based on real-time feedback from their learners,
+e.g.,
+by providing an alternative explanation of a concept that the class has found difficult
+or by changing direction to incorporate a question that reveals an unexpected learner interest.
 
-As instructors,
-we always want to get through material than time allows,
+In addition,
+learners who are intrinsically motivated learn more than those who are extrinsically motivated
+(or not motivated at all)~\cite{Wlod2017}.
+When you make a connection between what you are teaching and your learners' goals
+or demonstrate that you respect their time and priorities,
+you increase how much they learn.
+
+\rulemajor{Rule 1: Assess prior knowledge---carefully.}
+
+The more you know about your learners before you start teaching,
+the more you will be able to help them.
+Inside a formal school system,
+the prerequisites to your course will tell you something about
+what they're likely to already know.
+In a free-range setting,
+though,
+your learners may be much more diverse,
+so you may want to give them a short survey or questionnaire in advance of your class
+to find out what knowledge and skills they have.
+
+Asking people to rate themselves on a scale from 1 to 5 is pointless
+because of the Dunning-Kruger effect:
+the less people know about a subject,
+the less accurate their estimate of their knowledge is~\cite{Krug1999}.
+In addition,
+people who are members of underrepresented groups will often underrate their skills.
+
+Rather than asking people to self-assess,
+you can ask them how easily they could complete some specific task,
+such as finding the average of the values in the second column of a table.
+Doing this is risky,
+though,
+because school trains people
+to treat anything that looks like an exam as something they have to pass
+rather than as a chance to shape instruction.
+If someone answers ``I don't know'' to even a couple of questions on your pre-assessment,
+they might conclude that your class is too advanced for them.
+You could therefore scare off many of the people you most want to help.
+
+\rulemajor{Rule 2: Use formative assessment every 5--15 minutes.}
+
+Instructors always want to get through material than time allows,
 so we often teach at the speed at which we can talk
 rather than the speed at which people can learn.
 Having learners do something every 5--15 slows us down,
@@ -71,21 +119,23 @@ Popular kinds of formative assessment in programming classes include:
   \item Write a few lines of code.
   \item Predict what the code on the screen will do when it runs.
   \item Contribute the next line of code.
+  \item Label a diagram of a data structure.
+  \item Trace the order in which statements are evaluated.
 \end{itemize}
 
 Starting with a formative assessment that reviews a previous lesson
 is a good way to signal that class has started,
-and having students recall older material before tackling something new
-has been shown to improve learning outcomes \cite{Wein2018b}.
+and having learners recall older material before tackling something new
+improves learning outcomes~\cite{Wein2018b}.
 Similarly,
 ending the class with such an exercise
-gives learners a sense of how far they (should have) progressed.
+gives learners a sense of how far they have progressed.
 
-A complement to this rule is to get students out of their seats every 45--60 minutes.
+A complement to this rule is to get learners out of their seats every 45--60 minutes.
 People's brains get tired when they are concentrating,
-and tired brains can't learn \cite{Ambr2010,HPL2}.
+and tired brains can't learn~\cite{HPL2}.
 Caffeine doesn't fix this,
-so have your learners get up and move around for a few minutes every hour
+so have learners get up and move around for a few minutes every hour
 in order to reoxygenate their gray cells.
 This allows those who need a bathroom break to take care of things discreetly\footnote{A colleague once told me that
 the basic unit of teaching is the bladder.
@@ -94,83 +144,65 @@ she said, ``You've obviously never been pregnant.''},
 and give the instructor a few moments to answer questions
 and figure out what to teach next.
 
-\rulemajor{Monitor progress and learners' need for assistance.}
+\rulemajor{Rule 3: Use sticky notes to monitor progress and distribute attention.}
 
-Sticky notes are one of my favorite teaching tools,
+Sticky notes are my favorite teaching tool,
 and I'm not alone in loving their versatility,
 portability, stickability, foldability,
 and subtle yet alluring aroma \cite{Ward2015}.
-Give each student two sticky notes of different colors,
+Give each learner two sticky notes of different colors,
 such as orange and green.
 If someone has completed an exercise and wants it checked,
 or if they feel that they are following the lesson,
-they put the green sticky note somewhere the teacher can see.
+they put the green sticky note somewhere the instructor can see.
 If they run into a problem and need help,
 they put up the orange one.
 This works much better than having people raise their hands:
 it's more discreet (which means they're more likely to actually do it),
 they can keep working while their flag is raised rather than trying to type one-handed,
-and the teacher can quickly see from the front of the room what state the class is in.
+and the instructor can quickly see from the front of the room what state the class is in.
 
-\rulemajor{Use a visibly fair mechanism to distribute your attention evenly.}
-
-Teachers naturally focus their attention on learners
+Sticky notes can also be used to ensure that attention is fairly distributed.
+Instructors naturally focus their attention on learners
 who are making eye contact and asking lots of questions---in other words, on extroverts.
 This creates two feedback loops:
 the extroverts ask even more questions because they're getting attention,
-while other students stop trying to engage because they're not.
-To ensure the teacher's attention is fairly distributed,
+while other learners stop trying to engage because they're not.
+To prevent this,
 have each learner write their name on a sticky note
-and post it somewhere visible.
-Each time the teacher calls on them or answers one of their questions,
+and post it on their laptop or somewhere equally visible.
+Each time the instructor calls on them or answers one of their questions,
 they take their sticky note down.
 Once all the sticky notes are down,
 everyone puts theirs up again.
-This technique makes it easy for the teacher to see who they haven't spoken with recently,
+This technique makes it easy for the instructor to see who they haven't spoken with recently,
 which helps them avoid unconscious bias and preferential interaction.
 It also shows learners how attention is being distributed
 so that when they \emph{are} called on,
 they won't feel like they're being picked on.
 
-\rulemajor{Make mistakes and work through them.}
-
-Novices spend most of their time trying to figure out what's broken and how to fix it,
-but teachers rarely devote that proportion of lessons to analyzing and correcting errors.
-Watching you figure out that something is wrong,
-hearing you work backward through the error messages to possible causes,
-and seeing you make and test fixes
-is often one of the most valuable things you can show your learners.
-
-For example,
-an effective way to teach programming is \emph{live coding}.
-Instead of presenting pre-written material,
-teachers write code in front of their class as their learners follow along.
-Doing this provides lots of opportunities for making and correcting mistakes,
-and watching a program being written is more engaging than watching someone page through slides.
-It also slows the teacher down,
-and helps remind them just how much they are throwing at their learners.
-Finally,
-watching teachers make mistakes shows learners that it's all right to make mistakes of their own.
-If the teacher isn't embarrassed about making and talking about mistakes,
-learners will be more comfortable doing so too.
-
-\rulemajor{Follow your learners---twice.}
+\rulemajor{Rule 4: Use live coding and make mistakes.}
 
 A slide deck is like taking a journey by train:
 the ride may be smooth,
 but the route can't be changed on the fly.
-Live coding,
+Writing code in front of the class while learners following along,
 on the other hand,
 is like going off road in a four-wheel drive:
 it may be bumpier and messier,
-but it's a lot easier to explore things that catch your attention.
-In particular,
-if a student asks a ``what if'' question,
-it's a lot easier to respond if you are writing code or proving a theorem in real time
-than if you are using a slide deck.
-Following your learners' lead also signals that you respect their time and interests;
+but it's a lot easier to explore things that catch the learners' attention.
+
+This practice is called \emph{live coding}.
+It encourages active learning---people are using knowledge immediately
+when acquiring it---and allows the instructor to adapt to their actual audience.
+If a learner asks a ``what if'' question,
+it's a lot easier to respond if you are writing code in real time
+rather than presenting slides.
+Following learners' lead also signals that you respect your learners' time and interests;
 this improves engagement,
-which in turn improves learning outcomes \cite{Wlod2017}.
+which in turn improves learning outcomes~\cite{Wlod2017}.
+It also slows you down
+and reminds you just how much extraneous material your learners have to wade through.
 
 But it's possible to have too much of a good thing.
 If someone asks a question, try it out.
@@ -178,12 +210,23 @@ If they or someone else asks a follow-up,
 try that too,
 but then come back to your main point.
 Otherwise,
-you can easily find yourself pulled so far off course that
+you can easily be pulled so far off course that
 you don't reach the most important points of your lesson.
 
-\rulemajor{Create a backlog.}
+Finally,
+live coding presents natural opportunities to demonstrate something that is often left out of textbooks.
+Novices spend most of their time trying to figure out what's broken and how to fix it,
+but lessons rarely devote that amount of time to analyzing and correcting errors.
+Watching the instructor make a mistake,
+figure out what went wrong,
+and then make and test fixes is immediately valuable.
+Doing this also shows learners that it's all right to make mistakes of their own:
+if you aren't embarrassed about making and talking about mistakes,
+learners will be more comfortable doing so too.
 
-You may not have time to answer all of your students' questions,
+\rulemajor{Rule 5: Create a backlog.}
+
+You may not have time to answer all of your learners' questions,
 or might not actually know the answers.
 To handle this,
 write questions on sticky notes and post them on the wall behind you,
@@ -191,109 +234,121 @@ then look over this backlog during breaks and decide which questions you want to
 This gives you a chance to prioritize based on what's most relevant (and what you actually know).
 It also helps build trust:
 many people have learned that ``I'll address that later''
-means ``I hope you forget that you asked'',
-so if they see you trying to tackle a few of the questions that have come up,
+means ``I hope you'll forget that you asked.''
+If they see you trying to tackle a few of the questions that have come up,
 they will forgive you for not getting to the rest.
 
-\rulemajor{Have learners work in pairs.}
-
-A sense of community is one of the primary motivators for adult learning \cite{Wlod2017},
-so encourage your learners to talk to teach as they work through exercises.
-Peer instruction puts group discussion at the center of teaching \cite{Crou2001,Smit2009,Port2016},
-but \emph{pair programming} and similar practices are also effective.
-
-Pair programming is a software development practice
-in which one person (the driver) does the typing
-while the other (the navigator) offers comments and suggestions,
-and the two switch roles several times per hour.
-It is effective in professional work \cite{Hann2009},
-and benefits in teaching include increased success rate in introductory courses,
-better software,
-and higher student confidence in their solutions.
-There is also evidence that students from underrepresented groups
-benefit even more than others \cite{McDo2006,Hank2011,Cele2018}.
-I have found it particularly helpful with mixed-ability classes,
-since pairs are more homogeneous than individuals.
-When you use pairing,
-put everyone in pairs,
-not just learners who are struggling,
-so that no one feels singled out.
-
-\rulemajor{Present diagrams incrementally.}
-
-Our brains have separate channels for
-processing visual and linguistic information \cite{Ambr2010,HPL2},
-so people learn best when complementary material is presented simultaneously through these channels.
-In simple terms,
-that means your slides should present diagrams or other relevant images for you to talk about,
-and that these diagrams should be built up piece by piece rather than presented all at once.
-When the diagram is presented piece by piece,
-students' brains will correlate the arrival of new visual information
-with the arrival of new linguistic information \cite{Maye2003,Maye2009}.
-Presentation of either later on will then help trigger recall of the other.
-
-\rulemajor{Have learners take notes, and review them.}
-
-Taking notes forces students to organize and reflect on information as it's coming in,
-which in turn increases the likelihood that you will transfer it to long-term memory.
-Many studies have shown that note-taking improves retention \cite{Aike1975,Boha2011},
-and more recent results indicate that taking notes using pen and paper
-is more effective than using a tablet or computer \cite{Muel2014}.
+\rulemajor{Rule 6: Have learners take notes, and review them.}
 
 Fifty years ago,
-when being able to accurately record information or the minutes of a meeting
+when being able to summarize a speech or record the minutes of a meeting
 was considered an essential white-collar skill,
-it was common for high school teachers to require students to submit their notes for grading.
-This is less common today,
-but is still beneficial,
-since it gives the teacher an opportunity to identify gaps between
-what they thought they taught
-and what their students heard.
+it was common for high school instructors to require learners to take notes
+and hand them in for grading.
+This has fallen out of fashion,
+but taking notes is still beneficial:
+it forces learners to organize and reflect on information as it's coming in,
+which in turn increases the likelihood that they will transfer it to long-term memory~\cite{Aike1975,Boha2011},
 
-If the resources to do this are not available,
-have learners take a minute at the end of each class
+To help learners improve their note-taking,
+have them take a minute at the end of each class
 to write one thing they learned on one side of a card
 and one question they still have or something they're confused about on the other.
 Review these \emph{minute cards} and looking for patterns only takes a few minutes,
 and tells you what you need to clarify at the start of the next lesson.
 
-\rulemajor{Teach together when you can.}
+Another technique is to make 4--6 learners the official note takers for each class.
+They must summarize the information presented
+and find answers to backlog questions that the instructor didn't get to (Rule~5).
+Their notes are then graded and shared with the class
+(e.g., by being posted on the course website).
+In many cases,
+their notes will be more useful than what you might have put together,
+since they will record what they and their peers actually need to know
+rather than what you think they ought to need to know.
 
-\emph{Co-teaching} describes any situation
-in which two teachers work together in the same classroom.
-\cite{Frie2016} describes several ways to do this:
+\rulemajor{Rule 7: Have learners work in pairs and discuss in groups.}
+
+Pair programming is a software development practice
+in which one person (the driver) does the typing
+while the other (the navigator) offers comments and suggestions,
+and the two switch roles several times per hour.
+It is effective in professional work~\cite{Hann2009},
+and benefits in teaching include increased success rate in introductory courses,
+better software,
+and higher learner confidence in their solutions.
+There is also evidence that learners from underrepresented groups
+benefit even more than others \cite{McDo2006,Hank2011,Cele2018}.
+It is particularly helpful with mixed-ability classes,
+since pairs are more homogeneous than individuals.
+However,
+when you use pairing,
+put everyone in pairs:
+if you only pair learners who are struggling,
+they will feel singled out.
+
+\emph{Peer instruction} attempts to provide the benefits of individual instruction in a scalable way
+by interleaving formative assessment with small-group discussion.
+After a brief introduction to a new topic,
+the instructor gives learners a multiple choice question or some other formative assessment
+(Rule~2).
+The learners vote on their answers,
+then spend several minutes discussing the question,
+during which they will fill in gaps in each other's knowledge
+and clear up each other's misunderstandings.
+This technique makes group discussion the focus of learning,
+and its effectiveness has been proven by multiple studies~\cite{Crou2001,Smit2009,Port2016}.
+
+\rulemajor{Rule 8: Use incremental diagrams to complement other material.}
+
+Our brains have separate channels for
+processing visual and linguistic information,
+so people learn best when complementary material is presented simultaneously through these channels~\cite{Maye2003,Maye2009}.
+In simple terms,
+this means that you should present diagrams or other relevant images for you to talk about
+rather than slabs of text that duplicate what you are saying.
+
+Diagrams are even more effective if they are built up piece by piece rather than shown all at once.
+When this is done,
+learners' brains will correlate the arrival of new visual information
+with the arrival of new linguistic information.
+Presentation of either later on will then help trigger recall of the other.
+
+\rulemajor{Rule 9: Teach together.}
+
+\emph{Co-teaching} describes two instructors working together in the same classroom~\cite{Frie2016}:
 
 \begin{description}
 
 \item[Team teaching:]
-  Both teachers deliver a single stream of content in tandem,
+  Both instructors deliver a single stream of content in tandem,
   taking turns like musicians taking solos.
 
 \item[Teach and assist:]
-  Teacher A teaches while Teacher B moves around the classroom
-  to help struggling students.
+  Instructor A teaches while Instructor B moves around the classroom
+  to help struggling learners.
 
 \item[Alternative teaching:]
-  Teacher A provides a small set of students with more intensive or specialized instruction
-  while Teacher B delivers a general lesson to the main group.
+  Instructor A provides a small set of learners with more intensive or specialized instruction
+  while Instructor B delivers a general lesson to the main group.
 
 \item[Teach and observe:]
-  Teacher A teaches while Teacher B observes the students,
+  Instructor A teaches while Instructor B observes the learners,
   collecting data on their understanding to help plan future lessons.
 
 \item[Parallel teaching:]
   The class is divided in two
-  and the teachers present the same material simultaneously to each.
+  and the instructors present the same material simultaneously to each.
 
 \item[Station teaching:]
-  The students are divided into small groups
+  The learners are divided into small groups
   that rotate from one station or activity to the next
-  while teachers supervise where needed.
+  while instructors supervise where needed.
 
 \end{description}
 
 Team teaching is particularly beneficial in day-long workshops:
-it give each teacher a chance to rest and think about what they are going to do next.
+it give each instructor a chance to rest and think about what they are going to do next.
 If you and a partner are co-teaching:
 
 \begin{itemize}
@@ -311,7 +366,7 @@ If you and a partner are co-teaching:
 
 \item
   Each person should teach for at least 10--15 minutes at a stretch,
-  since students will be distracted by more frequent switch-ups.
+  since learners will be distracted by more frequent switch-ups.
 
 \item
   The person who isn't teaching shouldn't interrupt,
@@ -327,11 +382,78 @@ take a few minutes when the class is over to congratulate or commiserate with ea
 in teaching as in life,
 shared misery is lessened and shared joy increased.
 
+\rulemajor{Rule 10: Include everyone.}
+
+\emph{Inclusivity} is a policy of including people who might otherwise be excluded or marginalized.
+In computing,
+it means making a positive effort to be more welcoming to women,
+under-represented racial or ethnic groups,
+people with various sexual orientations,
+the elderly,
+those facing physical challenges,
+the formerly incarcerated,
+the economically disadvantaged,
+and everyone else who doesn't fit Silicon Valley's affluent white/Asian male demographic.
+
+The first and most important step toward fixing this is
+to stop using a \emph{deficit model},
+i.e.,
+to stop thinking that the members of under-represented groups lack something
+and are therefore responsible for not getting ahead.
+Believing that puts the burden on people who already have to do extra work to overcome structural inequities
+and (not coincidentally) gives those who benefit from the current arrangements
+an excuse not to look at themselves too closely.
+
+Misogyny in video games,
+the use of ``cultural fit'' in hiring to excuse conscious or unconscious bias,
+a culture of silence around harassment,
+and the growing inequality in society that produces preparatory privilege
+are not any one person's fault,
+but fixing them is everyone's responsibility.
+As an instructor,
+you have more power than most;
+Frame Shift Consulting's workshop materials offer excellent practical advice on how to be a good ally~\cite{Auro2019},
+and are probably more important than anything else in this paper.
+
+\cite{Burg2015} describes things instructors can do to make their lessons more accessible
+to learners facing physical challenges,
+while \cite{Lee2017} is a brief, practical guide to inclusivity in the classroom.
+The practices it describes help everyone,
+not just members of marginalized groups,
+and include:
+
+\begin{description}
+
+\item[Ask learners to email you beforehand]
+  to explain how they believe what they're about to learn will help them achieve their goals.
+
+\item[Review your notes]
+  to make sure they are free from gendered pronouns, include culturally diverse names, etc.
+
+\item[Emphasize that what matters is the rate at which people learn,]
+  not the advantages or disadvantages they had when they started.
+
+\item[Actively mitigate behavior that some learners may find intimidating,]
+  e.g., the use of jargon or ``questions'' that are actually asked to display knowledge.
+
+\end{description}
+
+One other way to support learners from marginalized groups is
+to have people sign up in groups rather than individually.
+That way,
+everyone in the room will know in advance that they will be with at least a few people they trust,
+which increases the chances of them actually coming.
+It also helps afterward:
+if people come with their friends or colleagues,
+they can work together to use what they've learned.
+
 \section*{Conclusion}
 
-If you are teaching an evening class after working for a full day,
-you and your learners will both appreciate it if you brush your teeth and put on a clean shirt.
-Cough drops will help you keep your voice
+One final note:
+if you are teaching an evening class after working for a full day,
+you and your learners will both appreciate it if you brush your teeth and put on a clean shirt
+before you start teaching.
+Cough drops will also help you keep your voice
 and fend off whatever colds the learners brought with them,
 and your back will be grateful tomorrow that you wore comfortable shoes today.
 
