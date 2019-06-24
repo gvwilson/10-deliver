@@ -77,19 +77,19 @@ what they're likely to already know.
 In a free-range setting,
 though,
 your learners may be much more diverse,
-so you may want to give them a short survey or questionnaire in advance of your class
+so you may want to give them a survey or questionnaire in advance of your class
 to find out what knowledge and skills they have.
 
-Asking people to rate themselves on a scale from 1 to 5 is pointless
+But asking people to rate themselves on a scale from 1 to 5 is pointless
 because of the Dunning-Kruger effect:
 the less people know about a subject,
 the less accurate their estimate of their knowledge is~\cite{Krug1999}.
 In addition,
 people who are members of underrepresented groups will often underrate their skills.
-
-Rather than asking people to self-assess,
-you can ask them how easily they could complete some specific task,
+Rather than asking people to rate themselves,
+you should instead ask them how easily they could complete some specific task,
 such as finding the average of the values in the second column of a table.
+
 Doing this is risky,
 though,
 because school trains people
@@ -144,7 +144,7 @@ she said, ``You've obviously never been pregnant.''},
 and give the instructor a few moments to answer questions
 and figure out what to teach next.
 
-\rulemajor{Rule 3: Use sticky notes to monitor progress and distribute attention.}
+\rulemajor{Rule 3: Use sticky notes to monitor progress, distribute attention, and create a backlog.}
 
 Sticky notes are my favorite teaching tool,
 and I'm not alone in loving their versatility,
@@ -180,6 +180,19 @@ which helps them avoid unconscious bias and preferential interaction.
 It also shows learners how attention is being distributed
 so that when they \emph{are} called on,
 they won't feel like they're being picked on.
+
+Finally,
+you may not have time to answer all of your learners' questions,
+or might not actually know the answers.
+To handle this,
+write questions on sticky notes and post them on the wall behind you,
+then look over this backlog during breaks and decide which questions you want to tackle.
+This gives you a chance to prioritize based on what's most relevant (and what you actually know).
+It also helps build trust:
+many people have learned that ``I'll address that later''
+means ``I hope you'll forget that you asked.''
+If they see you trying to tackle a few of the questions that have come up,
+they will forgive you for not getting to the rest.
 
 \rulemajor{Rule 4: Use live coding and make mistakes.}
 
@@ -224,19 +237,45 @@ Doing this also shows learners that it's all right to make mistakes of their own
 if you aren't embarrassed about making and talking about mistakes,
 learners will be more comfortable doing so too.
 
-\rulemajor{Rule 5: Create a backlog.}
+\rulemajor{Rule 5: Use a wide variety of exercise types.}
 
-You may not have time to answer all of your learners' questions,
-or might not actually know the answers.
-To handle this,
-write questions on sticky notes and post them on the wall behind you,
-then look over this backlog during breaks and decide which questions you want to tackle.
-This gives you a chance to prioritize based on what's most relevant (and what you actually know).
-It also helps build trust:
-many people have learned that ``I'll address that later''
-means ``I hope you'll forget that you asked.''
-If they see you trying to tackle a few of the questions that have come up,
-they will forgive you for not getting to the rest.
+Most programming classes rely primarily on code~\&~run exercises
+in which learners write software that behaves in a tightly-specified way.
+To keep learners engaged,
+and to give them opportunities to practice other skills and higher-level reasoning,
+you should also use:
+
+\begin{description}
+
+\item[Parsons Problems,]
+  which give them the lines of code needed to solve a problem,
+  but in jumbled order~\cite{Pars2006,Morr2016,Eric2017}.
+  Parsons Problems reduce cognitive load by allowing learners to focus on control flow
+  without simultaneously having to recall syntax.
+
+\item[Multiple choice questions]
+  whose wrong answers have been chosen to probe for specific misconceptions.
+  For example, learners who have worked with spreadsheets may believe that
+  after executing \texttt{a=10}, \texttt{b=a}, and \texttt{a=20},
+  the value of \texttt{b} will be 20.
+
+\item[Debugging,] \textbf{completion,} and \textbf{extension} exercises
+  in which learners must fix, finish, or extend an existing program.
+  These all model authentic tasks
+  (i.e., the kinds of things programmers spend most of their time doing in real life).
+
+\item[Tracing execution order] or \textbf{tracing values},
+  in which the learner lists the order in which the statements in a program are executed
+  or the values that one or more variables take on as the program runs,
+  which are essential program comprehension skills.
+
+\item[Code reviews]
+  in which learners score a program against a rubric supplied by the instructor.
+  In these exercises,
+  learners typically start with a perfect score and lose points for false positives as well as false negatives
+  so that they don't simply mark every statement as being wrong in all possible ways.
+  
+\end{description}
 
 \rulemajor{Rule 6: Have learners take notes, and review them.}
 
@@ -259,7 +298,7 @@ and tells you what you need to clarify at the start of the next lesson.
 
 Another technique is to make 4--6 learners the official note takers for each class.
 They must summarize the information presented
-and find answers to backlog questions that the instructor didn't get to (Rule~5).
+and find answers to backlog questions that the instructor didn't get to (Rule~4).
 Their notes are then graded and shared with the class
 (e.g., by being posted on the course website).
 In many cases,
@@ -299,7 +338,7 @@ and clear up each other's misunderstandings.
 This technique makes group discussion the focus of learning,
 and its effectiveness has been proven by multiple studies~\cite{Crou2001,Smit2009,Port2016}.
 
-\rulemajor{Rule 8: Use incremental diagrams to complement other material.}
+\rulemajor{Rule 8: Present relevant diagrams incrementally to complement other material.}
 
 Our brains have separate channels for
 processing visual and linguistic information,
@@ -307,12 +346,22 @@ so people learn best when complementary material is presented simultaneously thr
 In simple terms,
 this means that you should present diagrams or other relevant images for you to talk about
 rather than slabs of text that duplicate what you are saying.
-
 Diagrams are even more effective if they are built up piece by piece rather than shown all at once.
 When this is done,
 learners' brains will correlate the arrival of new visual information
 with the arrival of new linguistic information.
 Presentation of either later on will then help trigger recall of the other.
+
+All graphics should be directly relevant to the course material.
+\cite{Sung2012} distinguished \emph{seductive} graphics
+(which are highly interesting but not directly relevant to the instructional goal),
+\emph{decorative} graphics
+(which are neutral but not directly relevant to the instructional goal),
+and \emph{instructive} graphics
+(which are directly relevant to the instructional goal).
+Learners who received any kind of graphic gave material higher satisfaction ratings
+than those who didn't get graphics,
+but only learners who got instructive graphics actually performed better.
 
 \rulemajor{Rule 9: Teach together.}
 
