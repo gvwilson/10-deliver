@@ -23,93 +23,56 @@
 
 \section*{Abstract}
 
-Designing a great lesson is the first 90\% of effective teaching;
-delivering it well is the other 90\%.
-The 10 simple tips outlined in this paper
-describe practices that anyone teaching programming can adopt immediately and at low cost.
-
-\section*{Author Summary}
-
 Teaching well is a craft like any other,
 and success often comes from an accumulation of small improvements
 rather than from any single large change.
 This paper describes ten practices you can use when teaching programming (and other subjects).
-All are easy to adopt,
-and have proven their value in both institutional classrooms and free-range workshops.
+All are easy to adopt
+and have proven their value in institutional classrooms,
+intensive workshops,
+and other settings.
 
 \section*{Introduction}
 
 Teaching well is a craft like any other,
 and success often comes from an accumulation of small improvements
 rather than from any single large change.
-This paper describes ten practices you can use when teaching programming (and other subjects)
+This paper describes ten practices you can use when teaching programming and other subjects
 that are easy to adopt
-and have proven their value in both institutional classrooms and free-range workshops.
+and have proven their value in institutional classrooms and other settings such as workshops.
 Some have been inspired by~\cite{Hust2012,Lang2016,Lemo2014},
-while others are drawn from the author's experience~\cite{Wils2016}
-or operationalize the larger ideas described in~\cite{Brow2018,Deve2018}.
+while others draw on the experience of this paper's author and colleagues~\cite{Wils2016,Deve2018,Wils2019}.
+In particular,
+this paper extends the evidence-based practices described in~\cite{Brow2018}.
 
 The foundation for these recommendations is the fact that
 active learning is more effective than passive learning~\cite{Ambr2010,HPL2}.
 People who use new knowledge as it comes in by doing exercises or summarizing it
 learn more than people who just watch or listen.
-Equally,
-teaching is more effective when instructors dynamically adjust their teaching
+Active teaching is similarly more effective:
+people learn more when instructors dynamically adjust their teaching
 based on real-time feedback from their learners,
 e.g.,
 by providing an alternative explanation of a concept that the class has found difficult
 or by changing direction to incorporate a question that reveals an unexpected learner interest.
-
-In addition,
+Finally,
 learners who are intrinsically motivated learn more than those who are extrinsically motivated
-(or not motivated at all)~\cite{Wlod2017}.
+or not motivated at all~\cite{Wlod2017}.
 When you make a connection between what you are teaching and your learners' goals
 or demonstrate that you respect their time and priorities,
 you increase how much they learn.
 
-\rulemajor{Tip 1: Assess prior knowledge---carefully.}
-
-The more you know about your learners before you start teaching,
-the more you will be able to help them.
-Inside a formal school system,
-the prerequisites to your course will tell you something about
-what they're likely to already know.
-In a free-range setting,
-though,
-your learners may be much more diverse,
-so you may want to give them a survey or questionnaire in advance of your class
-to find out what knowledge and skills they have.
-
-But asking people to rate themselves on a scale from 1 to 5 is pointless
-because of the Dunning-Kruger effect:
-the less people know about a subject,
-the less accurate their estimate of their knowledge is~\cite{Krug1999}.
-In addition,
-people who are members of underrepresented groups will often underrate their skills.
-Rather than asking people to rate themselves,
-you should instead ask them how easily they could complete some specific task,
-such as finding the average of the values in the second column of a table.
-
-Doing this is risky,
-though,
-because school trains people
-to treat anything that looks like an exam as something they have to pass
-rather than as a chance to shape instruction.
-If someone answers ``I don't know'' to even a couple of questions on your pre-assessment,
-they might conclude that your class is too advanced for them.
-You could therefore scare off many of the people you most want to help.
-
-\rulemajor{Tip 2: Use formative assessment every 5--15 minutes.}
+\rulemajor{Tip 1: Use formative assessment every 10--15 minutes.}
 
 Instructors always want to get through material than time allows,
 so we often teach at the speed at which we can talk
 rather than the speed at which people can learn.
-Having learners do something every 5--15 slows us down,
-keeps them engaged,
-and gives us and them feedback on whether they have actually understood
-what has just been taught.
+Having learners do something every 10--15 slows us down to the speed at which people can learn
+rather than the speed at which we can talk.
+It also keeps them engaged
+and gives us and them feedback on whether they have actually understood.
 
-In-class checks like this are one kind are called \emph{formative assessments}.
+In-class checks like this are called \emph{formative assessments}.
 Good ones take only a minute or two to complete so that they don't derail the flow of the lesson,
 and have an unambiguous correct answer so that they can be checked in large classes.
 Popular kinds of formative assessment in programming classes include:
@@ -131,25 +94,96 @@ Similarly,
 ending the class with such an exercise
 gives learners a sense of how far they have progressed.
 
-A complement to this tip is to get learners out of their seats every 45--60 minutes.
+Some formative assessments should be designed in advance:
+in fact,
+they should be designed before the lesson content is written
+so that they can act as goalposts~\cite{Wils2019}.
+However,
+they can also be created on the fly to incorporate and respond to learners' questions and confusions.
+For example,
+after writing and presenting a few lines of code,
+an instructor can ask what would happen if something was added or modified.
+If learners make different predictions,
+the instructor can then ask them to debate the outcomes
+as a form of ad hoc peer instruction~\cite{Brow2018}.
+
+\rulemajor{Tip 2: Give learners and yourself a break every 45--90 minutes.}
+
 People's brains get tired when they are concentrating,
 and tired brains can't learn~\cite{HPL2}.
 Caffeine doesn't fix this,
-so have learners get up and move around for a few minutes every hour
+so find an excuse such as stand-up discussion
+to have learners get up and move around for a few minutes every hour
 in order to reoxygenate their gray cells.
-This allows those who need a bathroom break to take care of things discreetly\footnote{A colleague once told me that
+This also allows those who need a bathroom break to take care of things discreetly.
+(A colleague once told me that
 the basic unit of teaching is the bladder.
 When I said I'd never thought of that,
-she said, ``You've obviously never been pregnant.''},
-and give the instructor a few moments to answer questions
-and figure out what to teach next.
+she said, ``You've obviously never been pregnant.'')
 
-\rulemajor{Tip 3: Use sticky notes to monitor progress, distribute attention, and create a backlog.}
+Hourly breaks aren't just for the learners' benefit.
+They also give instructors a few minutes to review what they are planning to teach next
+and to think about how to answer questions in their backlog (discussed in the next tip).
+If you are co-teaching (Tip~\#8),
+this is a natural time to swap roles,
+give or get feedback,
+or discuss problems that learners seem to be having.
+
+\rulemajor{Tip 3: Use a variety of exercise types.}
+
+The final rule in \cite{Brow2018} said,
+``Don't just code,''
+and it bears elaboration here.
+Most programming classes rely primarily on code~\&~run exercises
+in which learners write software that behaves in a tightly-specified way.
+To keep learners engaged
+and to give them opportunities to practice other skills and higher-level reasoning
+you should also use:
+
+\begin{description}
+
+\item[Parsons Problems,]
+  which give them the lines of code needed to solve a problem,
+  but in jumbled order~\cite{Pars2006,Morr2016,Eric2017}.
+  Parsons Problems reduce cognitive load by allowing learners to focus on control flow
+  without simultaneously having to recall syntax.
+
+\item[Multiple choice questions]
+  whose wrong answers have been chosen to probe for specific misconceptions.
+  For example, learners who have worked with spreadsheets may believe that
+  after executing \texttt{a=10}, \texttt{b=a}, and \texttt{a=20},
+  the value of \texttt{b} will be 20.
+
+\item[Matching and ranking problems]
+  in which they match terms from one column to definitions in another,
+  put pre-defined labels on a diagram,
+  or sort items according to some criteria
+  (e.g., most likely to least likely).
+  
+\item[Debugging,] \textbf{completion,} and \textbf{extension} exercises
+  in which learners must fix, finish, or extend an existing program.
+  These all model authentic tasks
+  (i.e., the kinds of things programmers spend most of their time doing in real life).
+
+\item[Tracing execution order] or \textbf{tracing values},
+  in which the learner lists the order in which the statements in a program are executed
+  or the values that one or more variables take on as the program runs,
+  which are essential program comprehension skills.
+
+\item[Code reviews]
+  in which learners score a program against a marking guide supplied by the instructor
+  in order to learn how to find flaws in code.
+  Learners start with a perfect score and lose points for false positives as well as false negatives
+  so that they don't simply mark every statement as being wrong in all possible ways.
+
+\end{description}
+
+\rulemajor{Tip 4: Use sticky notes to monitor progress and distribute attention.}
 
 Sticky notes are my favorite teaching tool,
 and I'm not alone in loving their versatility,
 portability, stickability, foldability,
-and subtle yet alluring aroma \cite{Ward2015}.
+and subtle yet alluring aroma~\cite{Ward2015}.
 Give each learner two sticky notes of different colors,
 such as orange and green.
 If someone has completed an exercise and wants it checked,
@@ -181,8 +215,9 @@ It also shows learners how attention is being distributed
 so that when they \emph{are} called on,
 they won't feel like they're being picked on.
 
-Finally,
-you may not have time to answer all of your learners' questions,
+\rulemajor{Tip 5: Create a visible backlog.}
+
+You may not have time to answer all of your learners' questions,
 or might not actually know the answers.
 To handle this,
 write questions on sticky notes and post them on the wall behind you,
@@ -194,151 +229,36 @@ means ``I hope you'll forget that you asked.''
 If they see you trying to tackle a few of the questions that have come up,
 they will forgive you for not getting to the rest.
 
-\rulemajor{Tip 4: Use live coding and make mistakes.}
-
-A slide deck is like taking a journey by train:
-the ride may be smooth,
-but the route can't be changed on the fly.
-Writing code in front of the class while learners following along,
-on the other hand,
-is like going off road in a four-wheel drive:
-it may be bumpier and messier,
-but it's a lot easier to explore things that catch the learners' attention.
-
-This practice is called \emph{live coding}.
-It encourages active learning---people are using knowledge immediately
-when acquiring it---and allows the instructor to adapt to their actual audience.
-If a learner asks a ``what if'' question,
-it's a lot easier to respond if you are writing code in real time
-rather than presenting slides.
-Following learners' lead also signals that you respect your learners' time and interests;
-this improves engagement,
-which in turn improves learning outcomes~\cite{Wlod2017}.
-It also slows you down
-and reminds you just how much extraneous material your learners have to wade through.
-
-But it's possible to have too much of a good thing.
-If someone asks a question, try it out.
-If they or someone else asks a follow-up,
-try that too,
-but then come back to your main point.
-Otherwise,
-you can easily be pulled so far off course that
-you don't reach the most important points of your lesson.
-
-Finally,
-live coding presents natural opportunities to demonstrate something that is often left out of textbooks.
-Novices spend most of their time trying to figure out what's broken and how to fix it,
-but lessons rarely devote that amount of time to analyzing and correcting errors.
-Watching the instructor make a mistake,
-figure out what went wrong,
-and then make and test fixes is immediately valuable.
-Doing this also shows learners that it's all right to make mistakes of their own:
-if you aren't embarrassed about making and talking about mistakes,
-learners will be more comfortable doing so too.
-
-\rulemajor{Tip 5: Use a wide variety of exercise types.}
-
-Most programming classes rely primarily on code~\&~run exercises
-in which learners write software that behaves in a tightly-specified way.
-To keep learners engaged,
-and to give them opportunities to practice other skills and higher-level reasoning,
-you should also use:
-
-\begin{description}
-
-\item[Parsons Problems,]
-  which give them the lines of code needed to solve a problem,
-  but in jumbled order~\cite{Pars2006,Morr2016,Eric2017}.
-  Parsons Problems reduce cognitive load by allowing learners to focus on control flow
-  without simultaneously having to recall syntax.
-
-\item[Multiple choice questions]
-  whose wrong answers have been chosen to probe for specific misconceptions.
-  For example, learners who have worked with spreadsheets may believe that
-  after executing \texttt{a=10}, \texttt{b=a}, and \texttt{a=20},
-  the value of \texttt{b} will be 20.
-
-\item[Debugging,] \textbf{completion,} and \textbf{extension} exercises
-  in which learners must fix, finish, or extend an existing program.
-  These all model authentic tasks
-  (i.e., the kinds of things programmers spend most of their time doing in real life).
-
-\item[Tracing execution order] or \textbf{tracing values},
-  in which the learner lists the order in which the statements in a program are executed
-  or the values that one or more variables take on as the program runs,
-  which are essential program comprehension skills.
-
-\item[Code reviews]
-  in which learners score a program against a rubric supplied by the instructor.
-  In these exercises,
-  learners typically start with a perfect score and lose points for false positives as well as false negatives
-  so that they don't simply mark every statement as being wrong in all possible ways.
-  
-\end{description}
-
-\rulemajor{Tip 6: Have learners take notes, and review them.}
+\rulemajor{Tip 6: Have learners take notes.}
 
 Fifty years ago,
-when being able to summarize a speech or record the minutes of a meeting
+when being able to summarize a speech or takes minutes in a meeting
 was considered an essential white-collar skill,
-it was common for high school instructors to require learners to take notes
-and hand them in for grading.
-This has fallen out of fashion,
-but taking notes is still beneficial:
-it forces learners to organize and reflect on information as it's coming in,
-which in turn increases the likelihood that they will transfer it to long-term memory~\cite{Aike1975,Boha2011},
+it was common for high school teachers to require students to hand in their notes for grading.
+This practice has fallen out of fashion,
+even though research shows that taking notes improves learning
+because it forces learners to organize and reflect on information as it's coming in,
+which in turn increases the likelihood that they will transfer it to long-term memory~\cite{Aike1975,Boha2011}.
 
 To help learners improve their note-taking,
 have them take a minute at the end of each class
 to write one thing they learned on one side of a card
 and one question they still have or something they're confused about on the other.
-Review these \emph{minute cards} and looking for patterns only takes a few minutes,
-and tells you what you need to clarify at the start of the next lesson.
+Reviewing these cards before the next class only takes a few minutes
+and will quickly reveal what learners have missed or misunderstood.
 
 Another technique is to make 4--6 learners the official note takers for each class.
 They must summarize the information presented
-and find answers to backlog questions that the instructor didn't get to (Tip~4).
-Their notes are then graded and shared with the class
+and find answers to backlog questions that the instructor didn't get to (Tip~\#5).
+Their notes are then graded by the instructor for quality and comprehensiveness
+and shared with the class
 (e.g., by being posted on the course website).
 In many cases,
 their notes will be more useful than what you might have put together,
 since they will record what they and their peers actually need to know
 rather than what you think they ought to need to know.
 
-\rulemajor{Tip 7: Have learners work in pairs and discuss in groups.}
-
-Pair programming is a software development practice
-in which one person (the driver) does the typing
-while the other (the navigator) offers comments and suggestions,
-and the two switch roles several times per hour.
-It is effective in professional work~\cite{Hann2009},
-and benefits in teaching include increased success rate in introductory courses,
-better software,
-and higher learner confidence in their solutions.
-There is also evidence that learners from underrepresented groups
-benefit even more than others \cite{McDo2006,Hank2011,Cele2018}.
-It is particularly helpful with mixed-ability classes,
-since pairs are more homogeneous than individuals.
-However,
-when you use pairing,
-put everyone in pairs:
-if you only pair learners who are struggling,
-they will feel singled out.
-
-\emph{Peer instruction} attempts to provide the benefits of individual instruction in a scalable way
-by interleaving formative assessment with small-group discussion.
-After a brief introduction to a new topic,
-the instructor gives learners a multiple choice question or some other formative assessment
-(Tip~2).
-The learners vote on their answers,
-then spend several minutes discussing the question,
-during which they will fill in gaps in each other's knowledge
-and clear up each other's misunderstandings.
-This technique makes group discussion the focus of learning,
-and its effectiveness has been proven by multiple studies~\cite{Crou2001,Smit2009,Port2016}.
-
-\rulemajor{Tip 8: Present relevant diagrams incrementally to complement other material.}
+\rulemajor{Tip 7: Present diagrams incrementally to complement other material.}
 
 Our brains have separate channels for
 processing visual and linguistic information,
@@ -363,19 +283,22 @@ Learners who received any kind of graphic gave material higher satisfaction rati
 than those who didn't get graphics,
 but only learners who got instructive graphics actually performed better.
 
-\rulemajor{Tip 9: Teach together.}
+\rulemajor{Tip 8: Teach together.}
 
 \emph{Co-teaching} describes two instructors working together in the same classroom~\cite{Frie2016}:
 
 \begin{description}
 
 \item[Team teaching:]
-  Both instructors deliver a single stream of content in tandem,
-  taking turns like musicians taking solos.
+  The instructors take turns delivering content.
+  Each can speak for the 10--15 minutes leading up to a formative assessment (Tip~\#1)
+  or for the 45--90 minutes between breaks (Tip~\#2).
 
 \item[Teach and assist:]
   Instructor A teaches while Instructor B moves around the classroom
   to help struggling learners.
+  (This is often combined with team teaching:
+  whoever isn't at the front of the class acts as a helper.)
 
 \item[Alternative teaching:]
   Instructor A provides a small set of learners with more intensive or specialized instruction
@@ -397,7 +320,7 @@ but only learners who got instructive graphics actually performed better.
 \end{description}
 
 Team teaching is particularly beneficial in day-long workshops:
-it give each instructor a chance to rest and think about what they are going to do next.
+it gives each instructor a chance to rest and think about what they are going to do next.
 If you and a partner are co-teaching:
 
 \begin{itemize}
@@ -414,8 +337,10 @@ If you and a partner are co-teaching:
   and, ``It's time for a bathroom break'' are all useful.
 
 \item
-  Each person should teach for at least 10--15 minutes at a stretch,
-  since learners will be distracted by more frequent switch-ups.
+  Each person should teach for at least 10--15 minutes at a time
+  so that learners aren't distracted by frequent switch-ups.
+  Hour-long turns that synchronize with breaks for learners
+  are usually easiest to manage (see Tip~\#2).
 
 \item
   The person who isn't teaching shouldn't interrupt,
@@ -431,70 +356,84 @@ take a few minutes when the class is over to congratulate or commiserate with ea
 in teaching as in life,
 shared misery is lessened and shared joy increased.
 
-\rulemajor{Tip 10: Include everyone.}
+\rulemajor{Tip 9: Include everyone.}
 
-\emph{Inclusivity} is a policy of including people who might otherwise be excluded or marginalized.
-In computing,
-it means making a positive effort to be more welcoming to women,
-under-represented racial or ethnic groups,
-people with various sexual orientations,
-the elderly,
-those facing physical challenges,
-the formerly incarcerated,
-the economically disadvantaged,
-and everyone else who doesn't fit Silicon Valley's affluent white/Asian male demographic.
-
-The first and most important step toward fixing this is
-to stop using a \emph{deficit model},
-i.e.,
-to stop thinking that the members of under-represented groups lack something
-and are therefore responsible for not getting ahead.
-Believing that puts the burden on people who already have to do extra work to overcome structural inequities
-and (not coincidentally) gives those who benefit from the current arrangements
-an excuse not to look at themselves too closely.
-
-Misogyny in video games,
-the use of ``cultural fit'' in hiring to excuse conscious or unconscious bias,
-a culture of silence around harassment,
-and the growing inequality in society that produces preparatory privilege
-are not any one person's fault,
-but fixing them is everyone's responsibility.
-As an instructor,
-you have more power than most;
-Frame Shift Consulting's workshop materials offer excellent practical advice on how to be a good ally~\cite{Auro2019},
-and are probably more important than anything else in this paper.
-
+As discussed in~\cite{Wils2019},
+\emph{inclusivity} is a policy of including people who might otherwise be excluded or marginalized.
 \cite{Burg2015} describes things instructors can do to make their lessons more accessible
-to learners facing physical challenges,
-while \cite{Lee2017} is a brief, practical guide to inclusivity in the classroom.
-The practices it describes help everyone,
-not just members of marginalized groups,
-and include:
+to learners with physical challenges,
+while \cite{Lee2017} is a brief, practical guide to practices that will help everyone,
+not just members of marginalized groups:
 
 \begin{description}
 
 \item[Ask learners to email you beforehand]
   to explain how they believe what they're about to learn will help them achieve their goals.
 
-\item[Review your notes]
-  to make sure they are free from gendered pronouns, include culturally diverse names, etc.
+\item[Use inclusive language]
+  such as mixed or gender-neutral pronouns, culturally diverse names, etc.
+
+\item[Avoid intimidating language,]
+  e.g., the use of jargon or feigned surprise (``Oh, you don't know that?'').
 
 \item[Emphasize that what matters is the rate at which people learn,]
   not the advantages or disadvantages they had when they started.
 
-\item[Actively mitigate behavior that some learners may find intimidating,]
-  e.g., the use of jargon or ``questions'' that are actually asked to display knowledge.
+\end{description}
+
+\rulemajor{Tip 10: Enforce a code of conduct.}
+
+The most important step in creating an inclusive classroom,
+and often the most difficult,
+is dealing with people who are being condescending or abusive.
+As a first step,
+adopt a code of conduct,
+tell everyone where to find it,
+and require everyone who takes part in your classes to abide by it.
+It can't stop people from being offensive,
+any more than laws against theft stop people from stealing,
+but it can make expectations and consequences clear,
+and signal that you are trying to make your class welcoming to all.
+
+A Code of Conduct is only useful if it is enforced.
+If you believe that someone has violated yours,
+you may warn them,
+ask them to apologize,
+and/or expel them,
+depending on the severity of the violation,
+whether or not you believe it was intentional,
+and whether it is a repeated offense.
+If you do have to expel someone:
+
+\begin{description}
+
+\item[Do it in front of witnesses.]
+  Most people will tone down their language and hostility in front of an audience,
+  and having someone else present ensures that
+  later discussion doesn't degenerate into conflicting claims about who said what.
+
+\item[Tell the rest of the class what happened and why.]
+  This helps prevent rumors from spreading
+  and shows that your code of conduct actually means something.
+
+\item[Email the offender as soon as you can]
+  to summarize what happened and the steps you took,
+  and copy the message to your workshop's hosts or one of your fellow teachers
+  so that there's a contemporaneous record of the conversation.
+  If the offender replies,
+  don't engage in a long debate:
+  it's never productive.
 
 \end{description}
 
-One other way to support learners from marginalized groups is
-to have people sign up in groups rather than individually.
-That way,
-everyone in the room will know in advance that they will be with at least a few people they trust,
-which increases the chances of them actually coming.
-It also helps afterward:
-if people come with their friends or colleagues,
-they can work together to use what they've learned.
+What happens outside of class matters at least as much as what happens within it~\cite{Part2011},
+so you need to provide a way for learners to report problems that you aren't there to see yourself.
+One step is to ask someone who isn't part of your group to be the first point of contact;
+that way,
+if someone wants to make a complaint about you or one of your fellow teachers,
+they have some assurance of confidentiality and independent action.
+\cite{Auro2019} has lots of other advice
+and is both short and practical.
 
 \section*{Conclusion}
 
