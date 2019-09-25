@@ -18,13 +18,13 @@ accumulation of small improvements rather than from any single large
 change. This paper describes ten practices you can use when teaching
 programming and other subjects that are easy to adopt and have proven
 their value in institutional classrooms and other settings such as
-workshops. Some have been inspired by [@Hust2012; @Lang2016; @Lemo2014],
+workshops. Some have been inspired by [[Hust2012](#Hust2012); [Lang2016](#Lang2016); [Lemo2014](#Lemo2014)],
 while others draw on the experience of this paper's author and
-colleagues [@Wils2016; @Deve2018; @Wils2019]. In particular, this paper
-extends the evidence-based practices described in [@Brow2018].
+colleagues [[Wils2016](#Wils2016); [Deve2018](#Deve2018); [Wils2019](#Wils2019)]. In particular, this paper
+extends the evidence-based practices described in [[Brow2018](#Brow2018)].
 
 The foundation for these recommendations is the fact that active
-learning is more effective than passive learning [@Ambr2010; @HPL2].
+learning is more effective than passive learning [[Ambr2010](#Ambr2010); [HPL2](#HPL2)].
 People who use new knowledge as it comes in by doing exercises or
 summarizing it learn more than people who just watch or listen. Active
 teaching is similarly more effective: people learn more when instructors
@@ -33,7 +33,7 @@ learners, e.g., by providing an alternative explanation of a concept
 that the class has found difficult or by changing direction to
 incorporate a question that reveals an unexpected learner interest.
 Finally, learners who are intrinsically motivated learn more than those
-who are extrinsically motivated or not motivated at all [@Wlod2017].
+who are extrinsically motivated or not motivated at all [[Wlod2017](#Wlod2017)].
 When you make a connection between what you are teaching and your
 learners' goals or demonstrate that you respect their time and
 priorities, you increase how much they learn.
@@ -68,22 +68,22 @@ programming classes include:
 Starting with a formative assessment that reviews a previous lesson is a
 good way to signal that class has started, and having learners recall
 older material before tackling something new improves learning
-outcomes [@Wein2018b]. Similarly, ending the class with such an exercise
+outcomes [[Wein2018b](#Wein2018b)]. Similarly, ending the class with such an exercise
 gives learners a sense of how far they have progressed.
 
 Some formative assessments should be designed in advance: in fact, they
 should be designed before the lesson content is written so that they can
-act as goalposts [@Wils2019]. However, they can also be created on the
+act as goalposts [[Wils2019](#Wils2019)]. However, they can also be created on the
 fly to incorporate and respond to learners' questions and confusions.
 For example, after writing and presenting a few lines of code, an
 instructor can ask what would happen if something was added or modified.
 If learners make different predictions, the instructor can then ask them
-to debate the outcomes as a form of ad hoc peer instruction [@Brow2018].
+to debate the outcomes as a form of ad hoc peer instruction [[Brow2018](#Brow2018)].
 
 ## Tip 2: Give learners and yourself a break every 45--90 minutes.
 
 People's brains get tired when they are concentrating, and tired brains
-can't learn [@HPL2]. Caffeine doesn't fix this, so find an excuse such
+can't learn [[HPL2](#HPL2)]. Caffeine doesn't fix this, so find an excuse such
 as stand-up discussion to have learners get up and move around for a few
 minutes every hour in order to reoxygenate their gray cells. This also
 allows those who need a bathroom break to take care of things
@@ -100,7 +100,7 @@ learners seem to be having.
 
 ## Tip 3: Use a variety of exercise types.
 
-The final rule in [@Brow2018] said, "Don't just code," and it bears
+The final rule in [[Brow2018](#Brow2018)] said, "Don't just code," and it bears
 elaboration here. Most programming classes rely primarily on code & run
 exercises in which learners write software that behaves in a
 tightly-specified way. To keep learners engaged and to give them
@@ -109,7 +109,7 @@ should also use:
 
 Parsons Problems,
 :   which give them the lines of code needed to solve a problem, but in
-    jumbled order [@Pars2006; @Morr2016; @Eric2017]. Parsons Problems
+    jumbled order [[Pars2006](#Pars2006); [Morr2016](#Morr2016); [Eric2017](#Eric2017)]. Parsons Problems
     reduce cognitive load by allowing learners to focus on control flow
     without simultaneously having to recall syntax.
 
@@ -147,7 +147,7 @@ Code reviews
 
 Sticky notes are my favorite teaching tool, and I'm not alone in loving
 their versatility, portability, stickability, foldability, and subtle
-yet alluring aroma [@Ward2015]. Give each learner two sticky notes of
+yet alluring aroma [[Ward2015](#Ward2015)]. Give each learner two sticky notes of
 different colors, such as orange and green. If someone has completed an
 exercise and wants it checked, or if they feel that they are following
 the lesson, they put the green sticky note somewhere the instructor can
@@ -195,7 +195,7 @@ notes for grading. This practice has fallen out of fashion, even though
 research shows that taking notes improves learning because it forces
 learners to organize and reflect on information as it's coming in, which
 in turn increases the likelihood that they will transfer it to long-term
-memory [@Aike1975; @Boha2011].
+memory [[Aike1975](#Aike1975); [Boha2011](#Boha2011)].
 
 To help learners improve their note-taking, have them take a minute at
 the end of each class to write one thing they learned on one side of a
@@ -218,7 +218,7 @@ to need to know.
 
 Our brains have separate channels for processing visual and linguistic
 information, so people learn best when complementary material is
-presented simultaneously through these channels [@Maye2003; @Maye2009].
+presented simultaneously through these channels [[Maye2003](#Maye2003); [Maye2009](#Maye2009)].
 In simple terms, this means that you should present diagrams or other
 relevant images for you to talk about rather than slabs of text that
 duplicate what you are saying. Diagrams are even more effective if they
@@ -228,7 +228,7 @@ information with the arrival of new linguistic information. Presentation
 of either later on will then help trigger recall of the other.
 
 All graphics should be directly relevant to the course material.
-[@Sung2012] distinguished *seductive* graphics (which are highly
+[[Sung2012](#Sung2012)] distinguished *seductive* graphics (which are highly
 interesting but not directly relevant to the instructional goal),
 *decorative* graphics (which are neutral but not directly relevant to
 the instructional goal), and *instructive* graphics (which are directly
@@ -240,7 +240,7 @@ performed better.
 ## Tip 8: Teach together.
 
 *Co-teaching* describes two instructors working together in the same
-classroom [@Frie2016]:
+classroom [[Frie2016](#Frie2016)]:
 
 Team teaching:
 :   The instructors take turns delivering content. Each can speak for
@@ -297,10 +297,10 @@ shared misery is lessened and shared joy increased.
 
 ## Tip 9: Include everyone.
 
-As discussed in [@Wils2019], *inclusivity* is a policy of including
-people who might otherwise be excluded or marginalized. [@Burg2015]
+As discussed in [[Wils2019](#Wils2019)], *inclusivity* is a policy of including
+people who might otherwise be excluded or marginalized. [[Burg2015](#Burg2015)]
 describes things instructors can do to make their lessons more
-accessible to learners with physical challenges, while [@Lee2017] is a
+accessible to learners with physical challenges, while [[Lee2017](#Lee2017)] is a
 brief, practical guide to practices that will help everyone, not just
 members of marginalized groups:
 
@@ -354,12 +354,12 @@ Email the offender as soon as you can
     productive.
 
 What happens outside of class matters at least as much as what happens
-within it [@Part2011], so you need to provide a way for learners to
+within it [[Part2011](#Part2011)], so you need to provide a way for learners to
 report problems that you aren't there to see yourself. One step is to
 ask someone who isn't part of your group to be the first point of
 contact; that way, if someone wants to make a complaint about you or one
 of your fellow teachers, they have some assurance of confidentiality and
-independent action. [@Auro2019] has lots of other advice and is both
+independent action. [[Auro2019](#Auro2019)] has lots of other advice and is both
 short and practical.
 
 ## Conclusion
@@ -373,87 +373,87 @@ you wore comfortable shoes today.
 
 ## Bibliography
 
-[Aike1975] Aiken EG, Thomas GS, Shennum WA. Memory for a Lecture: Effects of
+[<a id="Aike1975">Aike1975</a>] Aiken EG, Thomas GS, Shennum WA. Memory for a Lecture: Effects of
 Notes, Lecture Rate, and Informational Density. Journal of Educational
 Psychology. 1975;67(3):439--444. doi:10.1037/h0076613.
 
-[Ambr2010] Ambrose SA, Bridges MW, DiPietro M, Lovett MC, Norman MK. How
+[<a id="Ambr2010">Ambr2010</a>] Ambrose SA, Bridges MW, DiPietro M, Lovett MC, Norman MK. How
 Learning Works: Seven Research-Based Principles for Smart Teaching. Jossey-Bass;
 2010.
 
-[Auro2019] Aurora V. Frame Shift Consulting Workshop on Ally Skills;
+[<a id="Auro2019">Auro2019</a>] Aurora V. Frame Shift Consulting Workshop on Ally Skills;
 2017. <https://frameshiftconsulting.com/ally-skills-workshop/>.
 
-[Boha2011] Bohay M, Blakely DP, Tamplin AK, Radvansky GA. Note Taking, Review,
+[<a id="Boha2011">Boha2011</a>] Bohay M, Blakely DP, Tamplin AK, Radvansky GA. Note Taking, Review,
 Memory, and Comprehension. American Journal of
 Psychology. 2011;124(1):63. doi:10.5406/amerjpsyc.124.1.0063.
 
-[Brow2018] Brown NCC, Wilson G. Ten Quick Tips for Teaching Programming. PLoS
+[<a id="Brow2018">Brow2018</a>] Brown NCC, Wilson G. Ten Quick Tips for Teaching Programming. PLoS
 Computational Biology. 2018;14(4). doi:10.1371/journal.pcbi.1006023.
 
-[Burg2015] Burgstahler SE. Universal Design in Higher Education: From Principles
+[<a id="Burg2015">Burg2015</a>] Burgstahler SE. Universal Design in Higher Education: From Principles
 to Practice. 2nd ed. Harvard Education Press; 2015.
 
-[Deve2018] Devenyi GA, Emonet R, Harris RM, Hertweck KL, Irving D, Milligan I,
+[<a id="Deve2018">Deve2018</a>] Devenyi GA, Emonet R, Harris RM, Hertweck KL, Irving D, Milligan I,
 et~al. Ten Simple Rules for Collaborative Lesson Development. PLoS Computational
 Biology. 2018;14(3). doi:10.1371/journal.pcbi.1005963.
 
-[Eric2017] Ericson BJ, Margulieux LE, Rick J. Solving Parsons Problems versus
+[<a id="Eric2017">Eric2017</a>] Ericson BJ, Margulieux LE, Rick J. Solving Parsons Problems versus
 Fixing and Writing Code. In: 2017 Koli Calling Conference on Computing Education
 Research (Koli'17). Association for Computing Machinery (ACM); 2017.
 
-[Frie2016] Friend M, Cook L. Interactions: Collaboration Skills for School
+[<a id="Frie2016">Frie2016</a>] Friend M, Cook L. Interactions: Collaboration Skills for School
 Professionals. Eighth ed. Pearson; 2016.
 
-[HPL2] National Academies of Sciences, Engineering, and Medicine. How People
+[<a id="HPL2">HPL2</a>] National Academies of Sciences, Engineering, and Medicine. How People
 Learn II: Learners, Contexts, and Cultures. National Academies Press; 2018.
 
-[Hust2012] Huston T. Teaching What You Don't Know. Harvard University Press;
+[<a id="Hust2012">Hust2012</a>] Huston T. Teaching What You Don't Know. Harvard University Press;
 2012.
 
-[Lang2016] Lang JM. Small Teaching: Everyday Lessons from the Science of
+[<a id="Lang2016">Lang2016</a>] Lang JM. Small Teaching: Everyday Lessons from the Science of
 Learning. Jossey-Bass; 2016.
 
-[Lee2017] Lee CB. What Can I Do Today to Create a More Inclusive Community in
+[<a id="Lee2017">Lee2017</a>] Lee CB. What Can I Do Today to Create a More Inclusive Community in
 CS?; 2017. <http://bit.ly/2oynmSH>.
 
-[Lemo2014] Lemov D. Teach Like a Champion 2.0: 62 Techniques that Put Students
+[<a id="Lemo2014">Lemo2014</a>] Lemov D. Teach Like a Champion 2.0: 62 Techniques that Put Students
 on the Path to College. Jossey-Bass; 2014.
 
-[Maye2003] Mayer RE, Moreno R. Nine Ways to Reduce Cognitive Load in Multimedia
+[<a id="Maye2003">Maye2003</a>] Mayer RE, Moreno R. Nine Ways to Reduce Cognitive Load in Multimedia
 Learning. Educational
 Psychologist. 2003;38(1):43--52. doi:10.1207/s15326985ep3801_6.
 
-[Maye2009] Mayer RE. Multimedia Learning. 2nd ed. Cambridge University Press;
+[<a id="Maye2009">Maye2009</a>] Mayer RE. Multimedia Learning. 2nd ed. Cambridge University Press;
 2009.
 
-[Morr2016] Morrison BB, Margulieux LE, Ericson BJ, Guzdial M. Subgoals Help
+[<a id="Morr2016">Morr2016</a>] Morrison BB, Margulieux LE, Ericson BJ, Guzdial M. Subgoals Help
 Students Solve Parsons Problems. In: 2016 Technical Symposium on Computer
 Science Education (SIGCSE'16). Association for Computing Machinery (ACM); 2016.
 
-[Pars2006] Parsons D, Haden P. Parsons Programming Puzzles: A Fun and Effective
+[<a id="Pars2006">Pars2006</a>] Parsons D, Haden P. Parsons Programming Puzzles: A Fun and Effective
 Learning Tool for First Programming Courses. In: 2006 Australasian Conference on
 Computing Education (ACE'06). Australian Computer Society; 2006. p. 157--163.
 
-[Part2011] Partanen A. What Americans Keep Ignoring About Finland's School
+[<a id="Part2011">Part2011</a>] Partanen A. What Americans Keep Ignoring About Finland's School
 Success;
 2011. https://www.theatlantic.com/national/archive/2011/12/what-americans-keep-ignoring-about-finlands-school-success/250564/.
 
-[Sung2012] Sung E, Mayer RE. When Graphics Improve Liking but not Learning from
+[<a id="Sung2012">Sung2012</a>] Sung E, Mayer RE. When Graphics Improve Liking but not Learning from
 Online Lessons. Computers in Human
 Behavior. 2012;28(5):1618--1625. doi:10.1016/j.chb.2012.03.026.
 
-[Ward2015] Ward J. Adventures in Stationery: A Journey Through Your Pencil
+[<a id="Ward2015">Ward2015</a>] Ward J. Adventures in Stationery: A Journey Through Your Pencil
 Case. Profile Books; 2015.
 
-[Wein2018b] Weinstein Y, Sumeracki M, Caviglioli O. Understanding How We Learn:
+[<a id="Wein2018b">Wein2018b</a>] Weinstein Y, Sumeracki M, Caviglioli O. Understanding How We Learn:
 A Visual Guide. Routledge; 2018.
 
-[Wils2016] Wilson G. Software Carpentry: lessons
+[<a id="Wils2016">Wils2016</a>] Wilson G. Software Carpentry: lessons
 learned. F1000Research. 2016;doi:10.12688/f1000research.3-62.v2.
 
-[Wils2019] Wilson G. Ten quick tips for creating an effective lesson. PLoS
+[<a id="Wils2019">Wils2019</a>] Wilson G. Ten quick tips for creating an effective lesson. PLoS
 Computational Biology. 2019;15(4):e1006915. doi:10.1371/journal.pcbi.1006915.
 
-[Wlod2017] Wlodkowski RJ, Ginsberg MB. Enhancing Adult Motivation to Learn: A
+[<a id="Wlod2017">Wlod2017</a>] Wlodkowski RJ, Ginsberg MB. Enhancing Adult Motivation to Learn: A
 Comprehensive Guide for Teaching All Adults. Jossey-Bass; 2017.
